@@ -1,0 +1,601 @@
+*{
+  /* margin: 0px; */
+  padding: 0px;
+}
+@font-face {
+  font-family: 'Proxima';
+  src: url('ProximaNova.TTF') format('truetype');
+}
+body{
+  color: #fff;
+  font-family: Proxima;
+  background: url(../img/Bg.jpg);
+  background-size: contain;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.imgsmal{
+  width: 10%;
+  vertical-align: middle;
+}
+
+
+.headerpic{
+  width: 100%;
+}
+.note{
+  text-align: center;
+  color: white;
+  margin-top: 2vw;
+  margin-bottom: 4vw;
+  font-size: 4vw;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.wintemp{
+  width:80%;
+  display: block;
+  margin: auto;
+}
+/* Style the tab content */
+.tabcontent {
+  display: block;
+  padding: 5px 1px;
+  border-top: none;
+}
+
+.colThree{
+  display: grid;
+  grid-template-columns: 20% 39% 46%;
+  width: 98%;
+  margin: auto;
+  margin-top: 2vw;
+  grid-gap: 0vw;
+  /* border-bottom: 2px solid rgb(12, 78, 103); */
+  /* background: rgba(30, 20, 120, 0.65); */
+  padding: 2vw;
+  border-radius: 3vw;
+  font-size: 3.2vw;
+}
+
+.colThreelast{
+  display: grid;
+  grid-template-columns: 24% 38% 36%;
+  width: 98%;
+  margin: auto;
+  margin-top: 2vw;
+  grid-gap: 0vw;
+  /* border-bottom: 2px solid rgb(12, 78, 103); */
+  /* background: rgba(30, 20, 120, 0.65); */
+  padding: 2vw;
+  border-radius: 3vw;
+  font-size: 3.5vw;
+}
+
+
+.lastDiv{text-align: center;font-size: 3.2vw;}
+.lastDiv p{
+  margin: 1vw;
+  font-size: 2.75vw;
+  text-shadow: 0px 0px 2px #fff;
+}
+.singing{
+  border-radius: 30vw;
+  background: rgb(29, 117, 189);
+  /* width: 10%; */
+  padding: 0vw 2vw;
+  font-size: 3.5vw;
+}
+
+
+
+.imgClass{
+  border-radius: 50%;
+  /* height: 15vw; */
+  width: 12vw;
+  vertical-align: middle;
+  border: 2px solid #cc3554;
+  padding: 2px;
+}
+.contentDiv{
+  margin:auto;
+  width: 90%;
+  position: relative;
+  background: rgb(39 11 90 / 66%);
+  border-radius: 3vw;
+  padding: 2vw;
+  margin-top: -41vw;
+  border: 2px solid #43b1f5;
+  border-radius: 2vw;
+  /* background-color: rgba(0,0,0,0.2); */
+  box-shadow: 0 0 5px #43b1f5;
+  box-shadow: bisque;
+  border-radius: 2vw;
+}
+.rewardcontent{
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.coltwo {
+  margin: auto;
+  display: grid;
+  grid-gap: 1vw;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 5vw;
+  outline: none;
+}
+
+.round1tab{
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  filter: brightness(0.5);
+}
+
+.rewards-title{
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+
+
+
+
+
+.tab {
+  overflow: hidden;
+  border: 2px solid gray;
+  /* background-color: #FFE4C4; */
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  display: grid;
+  /* background: url(../img/Btn-Strip.png); */
+  background-size: 100% 100%;
+  background: linear-gradient(45deg, black, black);
+  border-radius: 223vw;
+  margin-bottom: 2vw;
+}
+
+.tabr1 {
+  overflow: hidden;
+  border: 2px solid gray;
+  /* background-color: #FFE4C4; */
+  grid-template-columns: 50% 50%;
+  display: grid;
+  /* background: url(../img/Btn-Strip.png); */
+  background-size: 100% 100%;
+  background: linear-gradient(45deg, black, black);
+  border-radius: 223vw;
+  margin-bottom: 2vw;
+  margin: auto;
+  width: 50%;
+}
+
+.tabr1 button {
+  background-color: inherit;
+  float: left;
+  cursor: pointer;
+  padding: 7px 16px;
+  font-size: 15px;
+  color: grey;
+  border: none;
+  outline: none;
+}
+.tabr1 button:hover {
+  background-color: gray;
+}
+.tabr1 button.active {
+  background: url(../img/gold-button.png);
+  color: #202020;
+  background-size: 100% 100%;
+  font-size: 15px;
+  border: none;
+}
+
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  cursor: pointer;
+  padding: 7px 16px;
+  font-size: 3.5vw;
+  color: grey;
+}
+.tab button:hover {
+  background-color: gray;
+}
+.tab button.active {
+  background: url(../img/gold-button.png);
+  color: #202020;
+  background-size: 100% 100%;
+  font-size: 3.5vw;
+}
+.demo2 {
+  /* display: block; */
+  /* padding: 3px 12px; */
+}
+
+.rewards-bg{
+  background: url(../img/rewards-bg.png);
+  background-size: 100% 100%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  display: grid;
+  margin: auto;
+  overflow: hidden;
+  width: 95%;
+}
+
+.rewards-bg2{
+  background: url(../img/rewards-bg.png);
+  background-size: 100% 100%;
+  grid-template-columns: 50% 50%;
+  display: grid;
+  margin: auto;
+  overflow: hidden;
+  width: 95%;
+}
+
+.rewards-bg1{
+  background: url(../img/rewards-bg.png);
+  background-size: 100% 100%;
+  display: grid;
+  margin: auto;
+  overflow: hidden;
+  width: 95%;
+}
+
+.reward{
+  width: 68%;
+  display: block;
+  margin: auto;
+  margin-top: 23vw;
+  margin-bottom: 26vw;
+}
+
+.reward1{
+  width: 30%;
+  display: block;
+  margin: auto;
+  margin-top: 24vw;
+  margin-bottom: 24vw;
+}
+
+.reward-text{
+  width: 77%;
+  margin: auto;
+  text-align: center;
+  margin-top: -22vw;
+  margin-bottom: 10vw;
+  font-size: 3vw;
+  display: block;
+}
+
+.reward-talent{
+  width: 77%;
+  margin: auto;
+  text-align: center;
+  margin-top: -22vw;
+  margin-bottom: 19vw;
+  display: block;
+}
+
+
+.tab-two{
+  overflow: hidden;
+  grid-template-columns: 50% 50%;
+  display: grid;
+  background-size: 100% 100%;
+  margin-bottom: 2vw;
+  outline: none;
+  border: none;
+}
+
+.shedule-btn{
+  display: block;
+  width: 100%;
+  margin: auto;
+  background-color: transparent;
+  filter: brightness(0.5);
+}
+
+.leaderboard-bg{
+  background: url(../img/Match-Detals-Bg.png);
+  margin-bottom: 6vw;
+  width: 97%;
+  margin: auto;
+  background-size: 100% 100%;
+}
+
+.round-btn{
+  display: block;
+  width: 60%;
+  margin: auto;
+  background-color: transparent;
+  filter: brightness(0.5);
+  margin-top: 6vw;
+}
+
+.tab-two button.active {
+  filter: brightness(2.8);
+  outline: none;
+  background: transparent;
+  border: none;
+}
+
+.tablinks{
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.tablinks active{
+  filter: brightness(2.8);
+}
+
+.rewardlinks{
+  background: transparent;
+  border: none;
+  outline: none;  
+}
+
+.demo3 {
+  background: transparent;
+  border: none;
+}
+
+.demo5 {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.title-1{
+  margin: auto;
+  background: url(../img/Match-title-tag.png);
+  background-size: 100% 100%;
+  margin-top: 10vw;
+}
+
+.stable{
+  width: 100%;
+  font-size: 3vw;
+}
+
+.table {
+  width:100%;
+}
+.table, th, td {
+  /*border: 1px solid black;*/
+  border-collapse: collapse;
+}
+.th, td {
+  padding: 4px;
+  text-align: center;
+  /*font-size: 13px;
+  width: 100%;*/
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+
+.vs{
+  width: 6vw;
+}
+
+.table-bg{
+  background: url(../img/Leaderboard-Strip.png);
+  background-size: 99% 78%;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+
+
+
+
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer;
+  position: absolute;
+  top: 77%;
+  color: white;
+  font-weight: bold;
+  font-size: 9vw;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.rightarrow{
+  right: 2vw;
+}
+
+.leftarrow{
+  left: 2vw;
+}
+
+
+.w3-badge {height:13px;width:13px;padding:0}
+
+
+.number{
+  position: relative;
+  font-size: 4.5vw !important;
+  background: url(../img/badge.png);
+  background-size: 100% 100%;
+  width: 13vw;
+  line-height: 13vw;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  display: block;
+  top: -60vw;
+}
+
+
+.round-bg{
+  background: transparent;
+  border: none;
+}
+
+
+.date{
+  font-size: 10px;
+}
+
+.coltwo button.active{
+  filter: brightness(2.8);
+}
+
+
+
+
+
+/*-----------------Guide Box-------------------------------------------------*/
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  /* padding-top: 38px; */ /* Location of the box */
+  left: 0;
+  top: 1px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  /* overflow: auto; */ /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+   /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background: url(../img/Guide-bg.png);
+  background-size: 100% 100%;
+  margin: auto;
+  width: 95%;
+  height: 172vw;
+  overflow-y: auto;
+  display: block;
+  /* scroll-behavior: smooth; */
+  /* overflow: hidden; */
+  /* padding-bottom: 12vw; */
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  /* float: right; */
+  /* font-size: 66px; */
+  width: 12%;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.guide-btn{
+  position: absolute;
+  top: 62vw;
+  right: 0;
+  width: 20%;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+.guide-text{
+  width: 100%;
+  margin-bottom: 8vw;
+}
+
+.guide-content{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  font-size: 3.2vw;
+  line-height: 1.6;
+  text-align: center;
+  /*overflow-y: auto;*/
+  height: 143vw;
+  margin-top: -10vw;
+  overflow-y: auto;
+  /* padding-bottom: 11vw; */
+  padding-top: -7vw;
+  padding-bottom: 12vw;
+}
+
+.guide-table th, td{
+  border: 1px solid #dbb665;
+  border-collapse: collapse;
+  font-size: 2.8vw;
+}
+
+.close-btn{
+  width: 9%;
+  float: right;
+  margin-top: -2vw;
+  position: absolute;
+  margin: 3vw -8vw 0vw;
+}
+
+.table2{
+  margin: auto;
+}
+
+.bean-pot{
+  text-align: center;
+  width: 37%;
+  border: 5px solid #eab470;
+  margin: 5vw auto;
+  padding: 2vw;
+  border-radius: 4vw;
+  color: gold;
+  font-size: 6vw;
+}
+
+
+.bean-pot-coin{
+  width: 15%;
+  padding: 0vw 2vw 0vw;
+}
+
+.centerDivlast{
+  text-align: center;
+}

@@ -1,0 +1,780 @@
+<!DOCTYPE>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+  <title>Ind - Agency PK Battle(3v3)</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-control" content="no-cache">
+  <meta http-equiv="Cache" content="no-cache">
+  <meta itemprop="name" content="Ind - Agency PK Battle(3v3)">
+  <meta property="og:title" content="Ind - Agency PK Battle(3v3)">
+  <meta property="og:description" content="Ind - Agency PK Battle(3v3)">
+  <meta property="og:image" content="Ind - Agency PK Battle(3v3)">
+  <meta property="og:url" content="http://www.streamkarlive.live/streamkar/pkAgency3v32k22/index.html">
+  <meta property="fb:app_id" content="475289669332579">
+  <meta name="twitter:title" content="Ind - Agency PK Battle(3v3)">
+  <meta name="twitter:description" content="Ind - Agency PK Battle(3v3)">
+  <meta name="twitter:image:src" content="http://www.streamkarlive.live/streamkar/pkAgency3v32k22/img/poster.jpg">
+  <link href="css/style.css?v=23" rel="stylesheet" type="text/css" />
+  <link href="./../common/css/common.css?v=21" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="./../common/js/jquery.3.1.min.js?v=3"></script>
+
+  <script type="text/javascript" src="./../common/js/native_api.js?v=5"></script>
+  <script type="text/javascript" src="./../common/js/common.js?v=3"></script>
+
+  <script src="js/ymvLy311lKo9rq8ZPQyKSChf75k.js"></script>
+    <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+  <script type="text/javascript" src="js/google-sheets-html.js"></script>
+
+  <script src="./js/scheduleSheet.js"></script>
+</head>
+<body>
+  <img src="img/Header.png" class="headerpic">
+
+<!-- Trigger/Open The Modal ----------------------Guide Start-------------------------------------------->
+<button id="myBtn"><img src="img/Guide-btn.png" alt="" class="guide-btn"></button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <img src="img/Guide-text.png" class="guide-text">
+    <span class="close"><img src="img/close-btn.png" class="close-btn" alt=""></span>
+    <div class="guide-content">
+      <h1>HOW TO PLAY</h1>
+      <ul>
+        <li>Top 6 Agencies have to register their ids with SK employees to participate in this event,</li>
+        <li>Each agencies will have 3 talents in it.</li>
+        <li>The talent from these agencies will compete in a 3 Vs 3 PK battle.</li>
+        <li>A Host must invite opponent host first then need to invite 2 other talents from their agency to compete with opponent agency.</li>
+        <li>Top 4 agency that earns maximum gems will go to the ﬁnal round.</li>
+        <li>The talent that wins maximum gems from the qualiﬁed agency will go to the ﬁnal round.</li>
+        <li>The winner of this tournament will be decided based on the gems they receive in the Final Round.</li>
+        <li>Talents will be ranked on the leader board according to the number of gems they receive in each Round.</li>
+        <li>Users will be ranked according to their spending on each round of the tournament.</li>
+        <li>The maximum spender will be the winner of the tournament.</li>
+      </ul>
+
+      <h2>USER REWARDS</h2>
+        <p>Following rewards will be distributed to the users as per beans spent in the overall tournament event.</p>
+      <table style="width:100%" class="guide-table">
+        <tr>
+          <th>Top Users</th>
+          <th>Winning Side Rewards</th>
+          <th>Losing Side Rewards</th> 
+        </tr>
+        <tr>
+          <td>05-20 Million Beans</td>
+          <td>01% of the Beans spent in the match</td>
+          <td>None</td>
+        </tr>
+        <tr>
+          <td>20-50 Million Beans</td>
+          <td>02% of the Beans spent in the match</td>
+          <td>01% of the Beans spent in the match</td>
+        </tr>
+        <tr>
+          <td>50 Millions & Above Beans</td>
+          <td>03% of the Beans spent in the match</td>
+          <td>02% of the Beans spent in the match</td>
+        </tr>
+        <tr>
+          <td>100 Millions & Above Beans</td>
+          <td>03% of the Beans spent in the match</td>
+          <td>02.5% of the Beans spent in the match</td>
+        </tr>
+        
+      </table>
+
+      <!--<p>Talents who have accumulated a total of 120M or more beans will receive following cash prizes rewards.</p>
+
+      <table class="table2">
+        <tr>
+          <td>Rank</td>
+          <td>Rewards</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Cash Price worth Rs 25,000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Cash Price worth Rs 20,000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Cash Price worth Rs 15,000</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Cash Price worth Rs 10,000</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Cash Price worth Rs 10,000</td>
+        </tr>
+      </table>-->
+      
+
+    </div>
+  </div>
+
+</div>
+
+<!----------------------------------------------Guide End-------------------------------------------->
+
+<div class="coltwo">
+  <button class="tablinks" onclick="openCity(event, 'Round-1')" id="mybutton"><img src="img/Round-1-btn.png" class="round1tab" alt=""></button>
+  <button class="tablinks" onclick="openCity(event, 'Round-2')"><img src="img/Round-2-btn.png" class="round1tab" alt=""></button>
+</div>
+
+
+<!----------------------------------------------Round1 Start------------------------------------------------------------------------>
+
+<div id="Round-1" class="tabcontent">
+  <img src="img/Rewards-title.png" class="rewards-title" alt="">
+
+
+  <div class="tabr1">
+    <button class="demo" onclick="infofunc(event, 'userreward')" >User</button>
+    <button class="demo" onclick="infofunc(event, 'talentreward')" id="mybutton1">Talent</button>
+    <!--<button class="demo" onclick="infofunc(event, 'agencyreward')">Agency</button>-->
+  </div>
+
+    <div id="userreward" class="demo2">
+      <div class="w3-content w3-display-container">
+        <div class="mySlides">
+          <div class="rewards-bg1">
+            <img  src="img/beanbag.png" class="reward1">
+          </div>
+          <div class="reward-text">Rewards will be distributed to the users as per beans spent in the overall event.<br>Rewards will be sent manually.</div>
+          <!--<div class="number">1st</div>-->
+        </div>
+        <!--<div class="mySlides">
+          <div class="rewards-bg1">
+            <img  src="img/Rewards/Maharaja-Entrance.png" class="reward1">
+          </div>
+          <div class="reward-text">15 days maharaja entrance + 15 days MAESTRO profile frame + webpage mention </div>
+          <div class="number">2nd</div>
+        </div>      
+        <div class="mySlides">
+          <div class="rewards-bg">
+            <img  src="img/Rewards/Maharaja-Entrance.png" class="reward">
+            <img  src="img/Rewards/Meastro-Profile-frame.png" class="reward">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward">
+          </div>
+          <div class="reward-text">10 days maharaja entrance + 10 days MAESTRO profile frame+ webpage mention </div>
+          <div class="number">3rd</div>
+        </div>
+        <div class="mySlides">
+          <div class="rewards-bg">
+            <img  src="img/Rewards/Maharaja-Entrance.png" class="reward">
+            <img  src="img/Rewards/Meastro-Profile-frame.png" class="reward">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward">
+          </div>
+          <div class="reward-text">7 days maharaja entrance + 7 days MAESTRO profile frame+ webpage mention </div>
+          <div class="number">4th</div>
+        </div>
+        <div class="mySlides">
+          <div class="rewards-bg">
+            <img  src="img/Rewards/Maharaja-Entrance.png" class="reward">
+            <img  src="img/Rewards/Meastro-Profile-frame.png" class="reward">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward">
+          </div>
+          <div class="reward-text">5 days maharaja entrance + 7 days MAESTRO profile frame+ webpage mention </div>
+          <div class="number">5th</div>
+        </div>-->
+
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <!--<div class="w3-left w3-hover-text-khaki leftarrow" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki rightarrow" onclick="plusDivs(1)">&#10095;</div>-->
+          <span class="w3-badge demoslide w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demoslide w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demoslide w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="talentreward" class="demo2">
+      <div class="w3-content w3-display-container">
+        <div class="mySlides1">
+          <div class="rewards-bg1">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward1">
+          </div>
+          <div class="reward-text">1 week Audio Room theme  PK Combat</div>
+          <div class="number">1st</div>
+        </div>
+        <div class="mySlides1">
+          <div class="rewards-bg1">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward1">
+          </div>
+          <div class="reward-text">5 Days Audio Room theme  PK Combat</div>
+          <div class="number">2nd</div>
+        </div>      
+        <div class="mySlides1">
+          <div class="rewards-bg1">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward1">
+          </div>
+          <div class="reward-text">3 Days Audio Room theme PK Combat</div>
+          <div class="number">3rd</div>
+        </div>
+        <div class="mySlides1">
+          <div class="rewards-bg1">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward1">
+          </div>
+          <div class="reward-text">3 Days Audio Room theme PK Combat</div>
+          <div class="number">4th</div>
+        </div>
+        <div class="mySlides1">
+          <div class="rewards-bg1">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward1">
+          </div>
+          <div class="reward-text">3 Days Audio Room theme PK Combat</div>
+          <div class="number">5th</div>
+        </div>
+
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki leftarrow" onclick="plusDivs1(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki rightarrow" onclick="plusDivs1(1)">&#10095;</div>
+          <span class="w3-badge demoslide1 w3-border w3-transparent w3-hover-white" onclick="currentDiv1(1)"></span>
+          <span class="w3-badge demoslide1 w3-border w3-transparent w3-hover-white" onclick="currentDiv1(2)"></span>
+          <span class="w3-badge demoslide1 w3-border w3-transparent w3-hover-white" onclick="currentDiv1(3)"></span>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="agencyreward" class="demo2">
+      <div class="w3-content w3-display-container">
+        <div class="mySlides2">
+          
+          <div class="rewards-bg1">
+            <img  src="img/Rewards/Banner-display.png" class="reward1">
+          </div>
+          <div class="reward-text">Banner for 3 days.</div>
+          <div class="number">1st</div>
+        </div>
+        <div class="mySlides2">
+          <div class="rewards-bg1">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward1">
+          </div>
+          <div class="reward-text">agency will be mentioned in webpage. </div>
+          <div class="number">2nd</div>
+        </div>      
+
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki leftarrow" onclick="plusDivs2(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki rightarrow" onclick="plusDivs2(1)">&#10095;</div>
+          <span class="w3-badge demoslide2 w3-border w3-transparent w3-hover-white" onclick="currentDiv2(1)"></span>
+          <span class="w3-badge demoslide2 w3-border w3-transparent w3-hover-white" onclick="currentDiv2(2)"></span>
+          <span class="w3-badge demoslide2 w3-border w3-transparent w3-hover-white" onclick="currentDiv2(3)"></span>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+
+<!------------------------------------------Round2 Start-------------------------------------------------------------------------->
+
+
+<div id="Round-2" class="tabcontent">
+  <img src="img/Rewards-title.png" class="rewards-title" alt="">
+
+
+  <div class="tab">
+    <button class="demor21" onclick="inforeward(event, 'userrewardr2')" id="mybuttonr21">User</button>
+    <button class="demor21" onclick="inforeward(event, 'talentrewardr2')">Talent</button>
+    <button class="demor21" onclick="inforeward(event, 'agencyrewardr2')">Agency</button>
+  </div>
+
+    <div id="userrewardr2" class="demor22">
+      <div class="w3-content w3-display-container">
+        <div class="mySlides3">
+          <div class="rewards-bg">
+            <img  src="img/Rewards/premium maharaja.png" class="reward">
+            <img  src="img/Rewards/Meastro-Profile-frame.png" class="reward">
+            <img  src="img/Rewards/Banner-display.png" class="reward">
+          </div>
+          <div class="reward-text">7 days Maharaja Premium Entrance + 21 days  MAESTRO profile frame + banner display for 3 days</div>
+          <div class="number">1st</div>
+        </div>
+        <div class="mySlides3">
+          <div class="rewards-bg">
+            <img  src="img/Rewards/premium maharaja.png" class="reward">
+            <img  src="img/Rewards/Meastro-Profile-frame.png" class="reward">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward">
+          </div>
+          <div class="reward-text">5 days Maharaja Premium Entrance + 15 days MAESTRO profile frame + webpage mention </div>
+          <div class="number">2nd</div>
+        </div>      
+        <div class="mySlides3">
+          <div class="rewards-bg">
+            <img  src="img/Rewards/premium maharaja.png" class="reward">
+            <img  src="img/Rewards/Meastro-Profile-frame.png" class="reward">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward">
+          </div>
+          <div class="reward-text">3 days Maharaja Premium Entrance + 10 days MAESTRO profile frame+ webpage mention </div>
+          <div class="number">3rd</div>
+        </div>
+        <div class="mySlides3">
+          <div class="rewards-bg">
+            <img  src="img/Rewards/Maharaja-Entrance.png" class="reward">
+            <img  src="img/Rewards/Meastro-Profile-frame.png" class="reward">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward">
+          </div>
+          <div class="reward-text">3 days maharaja entrance + 7 days MAESTRO profile frame+ webpage mention </div>
+          <div class="number">4th</div>
+        </div>
+        <div class="mySlides3">
+          <div class="rewards-bg">
+            <img  src="img/Rewards/Maharaja-Entrance.png" class="reward">
+            <img  src="img/Rewards/Meastro-Profile-frame.png" class="reward">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward">
+          </div>
+          <div class="reward-text">3 days maharaja entrance + 7 days MAESTRO profile frame+ webpage mention </div>
+          <div class="number">5th</div>
+        </div>
+
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki leftarrow" onclick="plusDivs3(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki rightarrow" onclick="plusDivs3(1)">&#10095;</div>
+          <span class="w3-badge demoslide3 w3-border w3-transparent w3-hover-white" onclick="currentDiv3(1)"></span>
+          <span class="w3-badge demoslide3 w3-border w3-transparent w3-hover-white" onclick="currentDiv3(2)"></span>
+          <span class="w3-badge demoslide3 w3-border w3-transparent w3-hover-white" onclick="currentDiv3(3)"></span>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="talentrewardr2" class="demor22">
+      <div class="w3-content w3-display-container">
+        <div class="mySlides4">
+          <div class="rewards-bg">
+            <img src="img/PK Battle Rewards/badge-final.png" class="reward">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward">
+            <img  src="img/Rewards/ProfileFrame.png" class="reward">
+            
+          </div>
+          <div class="reward-text">21 days PK STAR + Audio theme of PK Combat + PK SUperStar Profile Frame</div>
+          <div class="number">1st</div>
+        </div>
+        <div class="mySlides4">
+          <div class="rewards-bg">
+            <img src="img/PK Battle Rewards/badge-final.png" class="reward">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward">
+            <img  src="img/Rewards/ProfileFrame.png" class="reward">
+          </div>
+          <div class="reward-text">15 days PK STAR + Audio theme of PK Combat + PK SUperStar Profile Frame</div>
+          <div class="number">2nd</div>
+        </div>      
+        <div class="mySlides4">
+          <div class="rewards-bg">
+            <img src="img/PK Battle Rewards/badge-final.png" class="reward">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward">
+            <img  src="img/Rewards/ProfileFrame.png" class="reward">
+          </div>
+          <div class="reward-text">10 days PK STAR + Audio theme of PK Combat + PK SUperStar Profile Frame</div>
+          <div class="number">3rd</div>
+        </div>
+        <div class="mySlides4">
+          <div class="rewards-bg">
+            <img src="img/PK Battle Rewards/badge-final.png" class="reward">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward">
+            <img  src="img/Rewards/ProfileFrame.png" class="reward">
+          </div>
+          <div class="reward-text">7 days PK STAR + Audio theme of PK Combat + PK SUperStar Profile Frame</div>
+          <div class="number">4th</div>
+        </div>
+        <div class="mySlides4">
+          <div class="rewards-bg">
+            <img src="img/PK Battle Rewards/badge-final.png" class="reward">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward">
+            <img  src="img/Rewards/ProfileFrame.png" class="reward">
+          </div>
+          <div class="reward-text">5 days PK STAR + Audio theme of PK Combat + PK SUperStar Profile Frame</div>
+          <div class="number">5th</div>
+        </div>
+
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki leftarrow" onclick="plusDivs4(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki rightarrow" onclick="plusDivs4(1)">&#10095;</div>
+          <span class="w3-badge demoslide4 w3-border w3-transparent w3-hover-white" onclick="currentDiv4(1)"></span>
+          <span class="w3-badge demoslide4 w3-border w3-transparent w3-hover-white" onclick="currentDiv4(2)"></span>
+          <span class="w3-badge demoslide4 w3-border w3-transparent w3-hover-white" onclick="currentDiv4(3)"></span>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="agencyrewardr2" class="demor22">
+      <div class="w3-content w3-display-container">
+        <div class="mySlides5">
+          
+          <div class="rewards-bg1">
+            <img  src="img/Rewards/Banner-display.png" class="reward1">
+          </div>
+          <div class="reward-text">Banner for 3 days</div>
+          <div class="number">1st</div>
+        </div>
+        <div class="mySlides5">
+          <div class="rewards-bg1">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward1">
+          </div>
+          <div class="reward-text">agency will be mentioned in webpage. </div>
+          <div class="number">2nd</div>
+        </div>  
+        <div class="mySlides5">
+          <div class="rewards-bg1">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward1">
+          </div>
+          <div class="reward-text">agency will be mentioned in webpage. </div>
+          <div class="number">3nd</div>
+        </div>      
+
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki leftarrow" onclick="plusDivs5(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki rightarrow" onclick="plusDivs5(1)">&#10095;</div>
+          <span class="w3-badge demoslide5 w3-border w3-transparent w3-hover-white" onclick="currentDiv5(1)"></span>
+          <span class="w3-badge demoslide5 w3-border w3-transparent w3-hover-white" onclick="currentDiv5(2)"></span>
+          <span class="w3-badge demoslide5 w3-border w3-transparent w3-hover-white" onclick="currentDiv5(3)"></span>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+<!------------------------------------------------Round 2 End------------------------------------------------------------------------------>
+
+
+
+
+<div class="tab-two">
+  <button class="demo3" onclick="infofunc1(event, 'shedule')" id="mybutton2"><img src="img/Shedule-select-btn.png" alt="" class="shedule-btn"></button>
+  <button class="demo3" onclick="infofunc1(event, 'leaderboard')" disabled><img src="img/Lederboard-Select-btn.png" alt="" class="shedule-btn"   ></button>
+</div>
+
+
+  <div id="shedule" class="demo4">
+    <div class="tab-two">
+      <button class="demo5" onclick="infofunc2(event, 'leadr1')" id="mybutton3"><img src="img/Round-1-Select-btn.png" alt="" class="round-btn"></button>
+      <button  class="demo5" onclick="infofunc2(event, 'leadr2')" disabled><img src="img/Round-2-select-btn.png" alt="" class="round-btn"></button>
+    </div>
+
+      <div id="leadr1" class="demo6">
+
+        <table id="indiaTable1" class="leaderboard-bg stable">
+          <thead>
+            <tr class="title-1">
+              <th>Royal Agency</th>
+              <th><img src="img/VS.png" alt="" class="vs" /></th>
+              <th>Mangalam Agency</th>
+              <th>Date & Time</th>
+            </tr>
+          </thead>
+          <!-- <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=631543176">631543176</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=634167880">634167880</a></td>
+            <td rowspan="3">23-11-2023<br>IST: 21:30-21:45</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=641336042">641336042</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=641804608">641804608</a></td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=635468097">635468097</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=645263988">645263988</a></td>
+          </tr>   -->
+          <tbody id="indianTableBody1">
+
+          </tbody>
+        </table>
+
+        <br>
+
+        <table id="indiaTable2" class="leaderboard-bg stable">
+          <tr class="title-1">
+            <th>Cute JK Agency</th>
+            <th><img src="img/VS.png" alt="" class="vs"></th> 
+            <th>Avengers Agency</th>
+            <th>Date & Time</th>
+          </tr>
+          <!-- <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=602780845">602780845</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=614097927">614097927</a></td>
+            <td rowspan="3">23-11-2023<br>IST: 22:00-22:15</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=595538998">595538998</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=625793134">625793134</a></td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=593932001">593932001</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=635145031">635145031</a></td>
+          </tr> -->
+          <tbody id="indianTableBody2">
+
+          </tbody>
+
+        </table>
+
+        <br>
+        
+        <table id="indiaTable3" class="leaderboard-bg stable">
+          <tr class="title-1">
+            <th>New Shining Agency</th>
+            <th><img src="img/VS.png" alt="" class="vs"></th> 
+            <th>Gill Brother</th>
+            <th>Date & Time</th>
+          </tr>
+          <!-- <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=630758906">630758906</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=586096312">586096312</a></td>
+            <td rowspan="3">23-11-2023<br>IST: 22:30-22:45</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=644729261">644729261</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=586485912">586485912</a></td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=646140808">646140808</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=592450833">592450833</a></td>
+          </tr> -->
+          <tbody id="indianTableBody3">
+
+          </tbody>
+
+        </table>
+
+        <br>
+
+        <!-- <table class="leaderboard-bg stable">
+          <tr class="title-1">
+            <th>Mahi Agency	</th>
+            <th><img src="img/VS.png" alt="" class="vs"></th> 
+            <th>Dream Creators	</th>
+            <th>Date & Time</th>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=559684988">559684988</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=618701168">618701168</a></td>
+            <td rowspan="3">20/04/2023<br>IST: 22:30-22:45</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=609603751">609603751</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=617966393">617966393</a></td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=638455689">638455689</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=634668637">634668637</a></td>
+          </tr>
+        </table> -->
+        <br>
+        <!-- <table class="leaderboard-bg stable">
+          <tr class="title-1">
+            <th>Simee Agency </th>
+            <th><img src="img/VS.png" alt="" class="vs"></th> 
+            <th>Target Agency	</th>
+            <th>Date & Time</th>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=580575114">580575114</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=574092997">574092997</a></td>
+            <td rowspan="3">21/10/2022<br>IST: 23:00-23:15</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=576866714">576866714</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=585691979">585691979</a></td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=588323872">588323872</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=562988035">562988035</a></td>
+          </tr>
+        </table> -->
+
+        
+      </div>
+
+
+      <div id="leadr2" class="demo6">
+
+        <table class="leaderboard-bg stable">
+          <tr class="title-1">
+            <th>Mangalam Agency	</th>
+            <th><img src="img/VS.png" alt="" class="vs"></th> 
+            <th>Avengers Agency	</th>
+            <th>Date & Time</th>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=631543176">631543176</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=614097927">614097927</a></td>
+            <td rowspan="3">25-11-2023<br>IST: 21:30-21:45</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=641336042">641336042</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=625793134">625793134</a></td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=635468097">635468097</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=635145031">635145031</a></td>
+          </tr>
+        </table>
+
+       <!-- <br>
+
+        <table class="leaderboard-bg stable">
+          <tr class="title-1">
+            <th>New Shining Agency	</th>
+            <th><img src="img/VS.png" alt="" class="vs"></th> 
+            <th>Royal Agency	</th>
+            <th>Date & Time</th>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=602780845">602780845</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=644707786">644707786</a></td>
+            <td rowspan="3">28-10-2023<br>IST: 22:00-22:15</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=595538998">595538998</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=630758906">630758906</a></td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=627070013">627070013</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=644729261">644729261</a></td>
+          </tr>
+        </table>
+
+        <br>-->
+<!-- 
+        <table class="leaderboard-bg stable">
+          <tr class="title-1">
+            <th>Start Light 🚨	</th>
+            <th><img src="img/VS.png" alt="" class="vs"></th> 
+            <th>Warriors of MS	</th>
+            <th>Date & Time</th>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=568637318">568637318</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=592040624">592040624</a></td>
+            <td rowspan="3">21-11-2022<br>IST: 22:00-22:15</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=558708478">558708478</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=590704008">590704008</a></td>
+          </tr>
+          <tr>
+            <td><a href="http://www.kktv1.com/m/?roomid=567965400">567965400</a></td>
+            <td></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=588549520">588549520</a></td>
+          </tr>
+        </table> -->
+
+      </div>
+
+  </div>
+
+
+   <div id="leaderboard" class="demo4">
+
+    <div class="tab-two">
+      <button class="demo7 round-bg" onclick="infofunc3(event, 'leadr3')" id="mybutton4"><img src="img/Round-1-Select-btn.png" alt="" class="round-btn "></button>
+      <button class="demo7 round-bg" onclick="infofunc3(event, 'leadr4')" disabled><img src="img/Round-2-select-btn.png" alt="" class="round-btn "></button>
+    </div>
+
+      <div id="leadr3" class="demo8">
+
+          <div class="tab">
+            <button class="demolr11" onclick="infoleadr1(event, 'userlead')" id="mybuttonlr1">User</button>
+            <button class="demolr11" onclick="infoleadr1(event, 'talentlead')">Talent</button>
+            <button class="demolr11" onclick="infoleadr1(event, 'agencylead')">Agency</button>
+          </div>
+
+          <div id="userlead" class="demolr12">
+          
+            <!-- <div class="bean-pot">
+              239,058<img src="img/coin.png" class="bean-pot-coin" alt="">
+            </div> -->
+
+            <div id="conDiv"></div>
+          </div>
+
+          <div id="talentlead" class="demolr12">
+             <div id="conDivTalent"></div>
+          </div>
+
+          <div id="agencylead" class="demolr12">
+                <div id="agencyrec"></div>
+          </div>
+
+      </div>
+
+      <div id="leadr4" class="demo8">
+
+        <div class="tab">
+          <button class="demolr21" onclick="infoleadr2(event, 'userlead2')" id="mybuttonlr2">User</button>
+          <button class="demolr21" onclick="infoleadr2(event, 'talentlead2')">Talent</button>
+          <button class="demolr21" onclick="infoleadr2(event, 'agencylead2')">Agency</button>
+        </div>
+
+
+        <div id="userlead2" class="demolr22">
+          <div id="conDivUser"></div>
+        </div>
+
+        <div id="talentlead2" class="demolr22">
+           <div id="conDivTalentNext"></div>
+        </div>
+
+        <div id="agencylead2" class="demolr22">
+          <div id="conDivAgencyNext"></div>
+        </div>
+      </div>
+ </div> 
+
+ <script type="text/javascript" src="js/index.js"></script> 
+
+
+<script>
+
+
+</script>
+<p  class="note">All rights reserved by StreamKar</p>
+</body>
+</html>
+
+

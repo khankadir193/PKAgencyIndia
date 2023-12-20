@@ -31,13 +31,13 @@ const getDataFromGoogleSheets2 = (SHEET_ID,RANGE,SHEET_TITLE,tableNo) => {
             const cell = document.createElement("td");
             const link = document.createElement("a");
             if ((index === 3 && timeFlag)) {
-              cell.textContent = cellData.v;
+              let date = cellData.v.slice(0,10);
+              let time =  cellData.v.slice(10);
+              cell.innerHTML = `${date} <br> ${time}`;
               cell.setAttribute("rowspan", 3);
               row.appendChild(cell);
-               
               timeFlag = false;
-            }
-            else if(index === 0 || index === 2){
+            }else if(index === 0 || index === 2){
               link.textContent = cellData?.v;
               // link.setAttribute("href","https://abdulkadirkhan786.netlify.app/");
               let id = cellData?.v;

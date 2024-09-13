@@ -599,3 +599,22 @@ a {
 .centerDivlast{
   text-align: center;
 }
+
+/* guide talent table css */
+/* h3 {
+    font-size: 18px;
+    color: white;
+} */
+.talentTable{
+  /* border-collapse: collapse;
+  width: 100%; */
+  margin: auto;
+  /* font-size: 2.8vw; */
+  /* margin: 0 auto; */
+}
+.talentTable td{
+  border: 1px solid #dbb665;
+  text-align: center;
+  padding: 1vw;
+  /* margin: 0 auto; */
+}
